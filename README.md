@@ -32,4 +32,4 @@ Apply the theme and restart omnifocus. It should look better now.
 
 It assumes that omnifocus is installed in /Applications/Omnifocus.app
 
-Icons taken from OF2 beta hope omnigroup doesn't mind because they can also be found in public screenshots.
+Icons taken from OF2 beta.  I hope that omnigroup doesn't mind because they can also be found in public screenshots.
