@@ -17,9 +17,15 @@ In a terminal:
     git clone https://github.com/deadsunrise/Omnifocus-modernize-theme.git 
     cd Omnifocus-modernize-theme
     sh ./install.sh
-    open omnifocus2.ofocus-theme
+    open ./omnifocus2.ofocus-theme
 
 
-Don't forget to apply the theme and restart omnifocus.
+Apply the theme and restart omnifocus.
  
 
+
+### Disclaimer
+
+It assumes that omnifocus is installed in /Applications/Omnifocus.app
+
+Icons taken from OF2 beta hope omnigroup doesn't mind because they can also be found in public screenshots.
