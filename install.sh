@@ -1,13 +1,14 @@
-#!/bin/bash -x 
+#!/bin/bash
 
-echo 'Making a backup of omnifocus in case you want to undo the changes'
-cp -R /Applications/OmniFocus.app /Applications/OmniFocus-backup.app
+echo '\n Making a backup of omnifocus in /Applications/OmniFocus-backup.app\n'
 
-echo 'Copying the new resources'
+cp -rf /Applications/OmniFocus.app /Applications/OmniFocus-backup.app
+
+echo ' Copying the new resources \n'
+
 cp -f OmniFocusInterface/* /Applications/OmniFocus.app/Contents/Frameworks/OmniFocusInterface.framework/Versions/Current/Resources
 cp -f Resources/* /Applications/OmniFocus.app/Contents/Resources/
 cp -f OOview/* /Applications/OmniFocus.app/Contents/Frameworks/OOView.framework/Resources
 cp -f OmniStyle/* /Applications/OmniFocus.app/Contents/Frameworks/OmniStyle.framework/Versions/A/Resources/LeafHandle.pdf
-echo 'Done'
 
-echo 'Don't forget to restart omnifocus and apply the theme'
+echo " Don't forget to restart omnifocus and apply the theme 'omnifocus2.ofocus-theme' that you can find in this folder\n"
