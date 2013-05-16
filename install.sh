@@ -11,6 +11,9 @@ cp -f Resources/* /Applications/OmniFocus.app/Contents/Resources/
 cp -f OOview/* /Applications/OmniFocus.app/Contents/Frameworks/OOView.framework/Resources
 cp -f OmniStyle/* /Applications/OmniFocus.app/Contents/Frameworks/OmniStyle.framework/Versions/A/Resources/LeafHandle.pdf
 
-echo " Apply the theme 'omnifocus2.ofocus-theme' and restart omnifocus "
+echo " Applying the theme 'omnifocus2.ofocus-theme'. Accept it and restart omnifocus "
+sleep 2
+open ./omnifocus2.ofocus-theme
+
 
 

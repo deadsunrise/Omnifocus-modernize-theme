@@ -17,11 +17,15 @@ In a terminal:
     git clone https://github.com/deadsunrise/Omnifocus-modernize-theme.git 
     cd Omnifocus-modernize-theme
     sh ./install.sh
-    open ./omnifocus2.ofocus-theme
+
+Apply the theme and restart omnifocus. It should look better now.
+  
 
 
-Apply the theme and restart omnifocus.
- 
+### To go back to the unmodified version
+
+    mv /Applications/Omnifocus-backup.app /Applications/Omnifocus.app
+
 
 
 ### Disclaimer
