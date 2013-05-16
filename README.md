@@ -1,11 +1,18 @@
 Omnifocus-modernize-theme
 =========================
 
-I like the look of Omnifocus 2 but it's still not ready for everyday use so I decided to make Omnifocus 1 look a little bit more like  the new version.
+I like the look of Omnifocus 2 but it's not ready for everyday use so I decided to make a theme for OF1 with the renewed look.
 
-Looks like this:
+It's a theme that comes with a small script to copy some icons into the resources of Omnifocus 1
 
-![omnifocus](http://i.imgur.com/sTAUC71.png)
+It looks like this:
+
+![omnifocus](http://i.imgur.com/V2zOXG6.png)
+
+
+## How to install 
+
+In a terminal:
 
     git clone https://github.com/deadsunrise/Omnifocus-modernize-theme.git 
     cd Omnifocus-modernize-theme
@@ -15,3 +22,4 @@ Looks like this:
 
 Don't forget to apply the theme and restart omnifocus.
  
+
