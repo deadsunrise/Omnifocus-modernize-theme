@@ -18,6 +18,10 @@ At the command line (Terminal or iTerm), type:
     sh ./install.sh
 
 When prompted, click "Replace" to apply the them, and restart OmniFocus.
+
+If you get an error "File install.sh is not executable" or similar, then type
+
+    chmod a+x ./install.sh
   
 ### To go back to the original version
 
