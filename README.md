@@ -1,35 +1,35 @@
 Omnifocus-modernize-theme
 =========================
 
-I like the look of Omnifocus 2 but it's not ready for everyday use so I decided to make a theme for OF1 with the renewed look.
+I like the look of OmniFocus 2 but it's not ready for everyday use so I decided to make a theme for OF1 with the renewed look.
 
-It's a theme that comes with a small script to copy some icons into the resources of Omnifocus 1
+It's a theme that comes with a small script to copy some icons into the resources of OmniFocus 1.
 
 It looks like this:
 
 ![omnifocus](http://i.imgur.com/V2zOXG6.png)
 
+## Installation
 
-## How to install 
-
-In a terminal:
+At the command line (Terminal or iTerm), type:
 
     git clone https://github.com/deadsunrise/Omnifocus-modernize-theme.git 
     cd Omnifocus-modernize-theme
     sh ./install.sh
 
-Apply the theme and restart omnifocus. It should look better now.
+When prompted, click "Replace" to apply the them, and restart OmniFocus.
+
+If you get an error "File install.sh is not executable" or similar, then type
+
+    chmod a+x ./install.sh
   
+### To go back to the original version
 
-
-### To go back to the unmodified version
-
-    mv /Applications/Omnifocus-backup.app /Applications/Omnifocus.app
-
-
+    cd Omnifocus-modernize-theme
+    sh ./uninstall.sh
 
 ### Disclaimer
 
-It assumes that omnifocus is installed in /Applications/Omnifocus.app
+By default, the script assumes that OmniFocus is installed in `/Applications/OmniFocus.app`. This can be configured in line 3 of `install.sh` and `uninstall.sh`.
 
-Icons taken from OF2 beta.  I hope that omnigroup doesn't mind because they can also be found in public screenshots.
+Icons taken from OF2 beta. I hope that OmniGroup doesn't mind because they can also be found in public screenshots.
