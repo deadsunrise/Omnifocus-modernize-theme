@@ -35,20 +35,20 @@
 			<string>1</string>
 		</dict>
 		<key>text-cell-post-gap(com.omnigroup.OmniOutliner)</key>
-		<real>9</real>
+		<real>8</real>
 		<key>text-cell-pre-gap(com.omnigroup.OmniOutliner)</key>
-		<real>9</real>
+		<real>8</real>
 	</dict>
 	<key>BlockedStyle</key>
 	<dict>
 		<key>font-fill</key>
 		<dict>
 			<key>b</key>
-			<string>0.364237</string>
+			<string>0.475501</string>
 			<key>g</key>
-			<string>0.364237</string>
+			<string>0.475501</string>
 			<key>r</key>
-			<string>0.364237</string>
+			<string>0.475501</string>
 		</dict>
 		<key>item-child-indentation(com.omnigroup.OmniOutliner)</key>
 		<real>8</real>
@@ -87,6 +87,8 @@
 		<real>1.5</real>
 		<key>text-background-color</key>
 		<dict>
+			<key>a</key>
+			<string>0.5</string>
 			<key>b</key>
 			<string>1</string>
 			<key>g</key>
@@ -143,9 +145,9 @@
 		<key>item-child-indentation(com.omnigroup.OmniOutliner)</key>
 		<real>23</real>
 		<key>text-cell-post-gap(com.omnigroup.OmniOutliner)</key>
-		<real>0.5</real>
+		<real>0.0</real>
 		<key>text-cell-pre-gap(com.omnigroup.OmniOutliner)</key>
-		<real>0.5</real>
+		<real>0.0</real>
 	</dict>
 	<key>DueSoonStyle</key>
 	<dict>
@@ -182,22 +184,22 @@
 			<string>0</string>
 		</dict>
 		<key>font-size</key>
-		<real>11</real>
+		<real>12</real>
 		<key>item-child-indentation(com.omnigroup.OmniOutliner)</key>
-		<real>19</real>
+		<real>16</real>
 		<key>text-background-color</key>
 		<dict>
 			<key>b</key>
-			<string>0.916058</string>
+			<string>0.962424</string>
 			<key>g</key>
-			<string>0.893162</string>
+			<string>0.938369</string>
 			<key>r</key>
-			<string>0.875282</string>
+			<string>0.919583</string>
 		</dict>
 		<key>text-cell-post-gap(com.omnigroup.OmniOutliner)</key>
-		<real>2.5</real>
+		<real>4.5</real>
 		<key>text-cell-pre-gap(com.omnigroup.OmniOutliner)</key>
-		<real>2.5</real>
+		<real>4.5</real>
 	</dict>
 	<key>GeneralContentStyle</key>
 	<dict>
@@ -215,12 +217,14 @@
 		<real>0.0</real>
 		<key>text-background-color</key>
 		<dict>
+			<key>a</key>
+			<string>0.69</string>
 			<key>b</key>
-			<string>0.941236</string>
+			<string>0.94902</string>
 			<key>g</key>
-			<string>0.941236</string>
+			<string>0.94902</string>
 			<key>r</key>
-			<string>0.941236</string>
+			<string>0.94902</string>
 		</dict>
 		<key>text-cell-post-gap(com.omnigroup.OmniOutliner)</key>
 		<real>5.5</real>
@@ -240,6 +244,8 @@
 			<key>r</key>
 			<string>0.862245</string>
 		</dict>
+		<key>font-size</key>
+		<real>13</real>
 		<key>item-child-indentation(com.omnigroup.OmniOutliner)</key>
 		<real>14</real>
 		<key>shadow-radius</key>
@@ -247,11 +253,11 @@
 		<key>text-background-color</key>
 		<dict>
 			<key>b</key>
-			<string>0.89719</string>
+			<string>0.953443</string>
 			<key>g</key>
-			<string>0.877842</string>
+			<string>0.929613</string>
 			<key>r</key>
-			<string>0.854719</string>
+			<string>0.911003</string>
 		</dict>
 		<key>text-cell-post-gap(com.omnigroup.OmniOutliner)</key>
 		<real>2</real>
@@ -264,14 +270,12 @@
 		<real>16</real>
 		<key>text-background-color</key>
 		<dict>
-			<key>a</key>
-			<string>0.93</string>
 			<key>b</key>
-			<string>1</string>
+			<string>0.94902</string>
 			<key>g</key>
-			<string>1</string>
+			<string>0.94902</string>
 			<key>r</key>
-			<string>1</string>
+			<string>0.94902</string>
 		</dict>
 	</dict>
 	<key>HeaderSidebarStyle</key>
@@ -311,10 +315,31 @@
 	</dict>
 	<key>NextActionStyle</key>
 	<dict>
+		<key>font-fill</key>
+		<dict>
+			<key>b</key>
+			<string>0.120162</string>
+			<key>g</key>
+			<string>0.269446</string>
+			<key>r</key>
+			<string>0.118833</string>
+		</dict>
+	</dict>
+	<key>NoteStyle</key>
+	<dict>
+		<key>font-fill</key>
+		<dict>
+			<key>b</key>
+			<string>0.421557</string>
+			<key>g</key>
+			<string>0.421557</string>
+			<key>r</key>
+			<string>0.421557</string>
+		</dict>
+		<key>font-size</key>
+		<real>10</real>
 		<key>text-background-color</key>
 		<dict>
-			<key>a</key>
-			<string>0.97</string>
 			<key>b</key>
 			<string>1</string>
 			<key>g</key>
@@ -322,16 +347,6 @@
 			<key>r</key>
 			<string>1</string>
 		</dict>
-	</dict>
-	<key>NoteStyle</key>
-	<dict>
-		<key>font-fill</key>
-		<dict>
-			<key>w</key>
-			<string>0.33</string>
-		</dict>
-		<key>font-size</key>
-		<real>10</real>
 	</dict>
 	<key>OverdueStyle</key>
 	<dict>
@@ -372,11 +387,11 @@
 		<key>font-size</key>
 		<real>11</real>
 		<key>item-child-indentation(com.omnigroup.OmniOutliner)</key>
-		<real>7</real>
+		<real>6</real>
 		<key>text-cell-post-gap(com.omnigroup.OmniOutliner)</key>
-		<real>3</real>
+		<real>4.5</real>
 		<key>text-cell-pre-gap(com.omnigroup.OmniOutliner)</key>
-		<real>3</real>
+		<real>4.5</real>
 	</dict>
 	<key>ProjectStyle</key>
 	<dict>
@@ -399,6 +414,8 @@
 		<string>always</string>
 		<key>text-background-color</key>
 		<dict>
+			<key>a</key>
+			<string>0.64</string>
 			<key>b</key>
 			<string>1</string>
 			<key>g</key>
@@ -407,23 +424,11 @@
 			<string>1</string>
 		</dict>
 		<key>text-cell-post-gap(com.omnigroup.OmniOutliner)</key>
-		<real>8.5</real>
+		<real>9.5</real>
 		<key>text-cell-pre-gap(com.omnigroup.OmniOutliner)</key>
-		<real>8.5</real>
+		<real>9.5</real>
 	</dict>
 	<key>SingletonActionStyle</key>
-	<dict>
-		<key>text-background-color</key>
-		<dict>
-			<key>a</key>
-			<string>0.95</string>
-			<key>b</key>
-			<string>1</string>
-			<key>g</key>
-			<string>1</string>
-			<key>r</key>
-			<string>1</string>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
