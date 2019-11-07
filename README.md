@@ -1,3 +1,6 @@
+DEPRECATED - This is a super old thing made years ago for Omnifocus 1. 
+======================================================================
+
 Omnifocus-modernize-theme
 =========================
 
